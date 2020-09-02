@@ -1,0 +1,22 @@
+package day09_ifStatement;
+import java.sql.SQLOutput;
+import java.util.Scanner;
+public class Odd_Even {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.println("Enter your age:");
+        int age = in.nextInt();
+
+
+        if (age>=18){
+            System.out.println("You can vote");
+
+        }
+        else{
+            System.out.println("You are not allowed to vote");
+        }
+
+
+
+    }
+}

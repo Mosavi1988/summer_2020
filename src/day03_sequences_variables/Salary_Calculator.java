@@ -1,0 +1,15 @@
+package day03_sequences_variables;
+
+public class Salary_Calculator {
+    public static void main(String[] args) {
+        int salary=150000;
+        double tax = 0.28;
+        double totaltax = salary*tax;
+        double SalaryafterTax =salary-totaltax;
+        System.out.println(totaltax);
+        System.out.println(SalaryafterTax);
+
+
+
+    }
+}
